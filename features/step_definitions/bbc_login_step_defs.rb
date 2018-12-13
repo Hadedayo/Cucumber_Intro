@@ -1,4 +1,5 @@
 Given("I access the BBC login page") do
+  p @users
   bbc_home_page.visit_home_page
   bbc_home_page.sign_in_on_bbc_site
   sleep 3
